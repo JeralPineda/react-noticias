@@ -1,5 +1,5 @@
 import styles from './Formulario.module.css';
-import useSelect from './hooks/useSelect';
+import useSelect from '../hooks/useSelect';
 
 const Formulario = ({ setCategoria }) => {
    const opciones = [
