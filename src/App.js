@@ -1,8 +1,12 @@
+import Header from './components/Header';
+
 function App() {
    return (
-      <div>
-         <h1>Noticias</h1>
-      </div>
+      <>
+         <Header titulo='Buscador de Noticias' />
+
+         <div className='container white'></div>
+      </>
    );
 }
 
