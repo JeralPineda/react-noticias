@@ -30,7 +30,7 @@ const Formulario = () => {
                      className={`${styles.btn_block} btn-large green darken-2`}
                      value='Buscar'
                   >
-                     Enviar
+                     Buscar
                   </button>
                </div>
             </form>
