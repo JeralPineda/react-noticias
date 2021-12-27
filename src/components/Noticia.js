@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import image from '../assets/img/No_image.jpg';
 import { isValidURL } from './helpers/isValidUrl';
 
@@ -37,6 +39,10 @@ const Noticia = ({ noticia }) => {
          </div>
       </div>
    );
+};
+
+Noticia.propTypes = {
+   noticia: PropTypes.object.isRequired,
 };
 
 export default Noticia;

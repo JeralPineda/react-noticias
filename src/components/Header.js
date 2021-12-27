@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Header = ({ titulo }) => {
    return (
       <nav className='nav-wrapper light-blue darken-3'>
@@ -6,6 +8,10 @@ const Header = ({ titulo }) => {
          </a>
       </nav>
    );
+};
+
+Header.propTyoes = {
+   titulo: PropTypes.string.isRequired,
 };
 
 export default Header;
