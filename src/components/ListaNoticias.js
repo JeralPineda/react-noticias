@@ -4,7 +4,7 @@ const ListaNoticias = ({ noticias }) => {
    return (
       <div className='row'>
          {noticias.map((noticia) => (
-            <Noticia />
+            <Noticia key={noticia.url} noticia={noticia} />
          ))}
       </div>
    );
