@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import Header from './components/Header';
 import Formulario from './components/Formulario';
+import ListaNoticias from './components/ListaNoticias';
 
 function App() {
    // definir la categoria y noticias
@@ -30,6 +31,8 @@ function App() {
                //
                setCategoria={setCategoria}
             />
+
+            <ListaNoticias noticias={noticias} />
          </div>
       </>
    );
